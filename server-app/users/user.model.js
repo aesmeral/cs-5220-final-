@@ -4,6 +4,7 @@ const fields = {
     username: { type: String, required: true },
     years_experience: { type: Number, default: 0 },
     programming_languages: { type: [String], default: [] },
+    google_id: { type: String },
     password: { type: String },
 };
 
